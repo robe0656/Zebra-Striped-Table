@@ -1,0 +1,75 @@
+
+#wrapper{
+    background-color: ;
+    font-family: sans-serif;
+    
+    
+}
+
+table{
+    border-collapse: collapse;
+    overflow:hidden;
+    width:80%;
+    max-width: 1500px;
+    min-width: 600px;
+    margin: 0 auto;
+    
+}
+
+caption{
+ color: blue;
+   background-color: skyblue;
+    height: 40px;
+    font-size: 30px;
+    
+}
+
+td{
+ border: 1px black solid;
+border-collapse: collapse;
+    width: 20%;
+    color: blue;
+    border-color: navy;
+    height: 50px;
+    padding: 4px;
+}
+
+th{
+ color: blue;
+   background-color: deepskyblue;
+    padding: 4px;
+    
+}
+
+
+
+td{
+    position: relative;
+    
+    
+}
+
+
+tr:hover{
+    background-color: skyblue;animation-fill-mode: 
+}
+
+
+td:hover::after,
+th:hover::after {
+  content: "";
+  position: absolute;
+  background-color: skyblue;
+  left: 0;
+  top: -5000px;
+  height: 10000px;
+  width: 100%;
+  z-index: -1;
+}
+ 
+
+
+th:hover{
+    background-color: skyblue;
+}
+
